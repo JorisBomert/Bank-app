@@ -1,0 +1,51 @@
+Användarmanual till Home Banking
+
+
+På uppstart
+Det första man ser när programmet starts upp är “Customers” sidan. Det är här alla skapade kunder hamnar. Eftersom programmet precis har blivit startat finns inga kunder att visas.
+
+För att börja skapa kunder trycker man på “New customer” knappen högst upp.
+
+Skapa ny kund
+Trycker man på knappen “New customer” får man upp 3 text rutor. I första rutan ska förnamnet anges, i andra rutan ska efternamnet anges och i sista rutan ska personnumret anges.
+Båda första namn och efternamn måste börja med en stor bokstav, och personnumret måste bestå av 10 siffror. Fylls rutorna i på annat sätt kommer ett meddelande visas om hur man fyller i på rätt sätt.
+
+När man fyllt i alla rutor trycker man längst ned på “Create” knappen. Då skapas kunden och kommer man tillbaka till första sida (Customers). Nu ska kunden visas i tabellen.
+
+Ändra kundens namn
+Trycker man på knappen “Edit customer” kommer man att få upp en scroll ruta till vänster och text rutor till höger.
+Det första man ska göra är att selektera en kund, det gör man genom att trycka på scroll rutan till vänster där det står: “-Select a customer-”. När man trycker på den kommer alla skapade kunder att visas, selektera den kunden som man vill ändra namnet på.
+När man har gjort det fyller man i textrutorna till höger, båda förnamnet och efternamnet, samma regler gäller som när man skapar en ny kund. Namnet ska alltså börja på en stor bokstav. När man har fyllt i allt trycker man på knappen “Finish editing” längst ned.
+
+Ta bort kunder samt deras konton
+Trycker man på knappen “Delete customer” visas en scroll ruta i mitten på skärmen där det står: 
+“-Select a customer-”. Trycker man på den kommer all befintliga kunder visas. Där kan man selektera kunden som man vill radera. När man har valt trycker man på knappen längst ned där det står: “Delete customer”.
+
+Selektera en specifik kund
+På Customers sida kan man välja ut en kund från listan som visas i tabellen. Det gör man genom att selektera kundens rad, sedan trycker man på knappen längst ned: “Select customer”.
+
+Skapa bank konton
+När man har selekterat en kund visas alla befintliga bank konton I en tabell. Man kan selektera bank konton på samma sätt som man selekterade kunden. När man har selekterat ett konto har man två möjligheter. Antingen trycker man på knappen “Select account” för att få mera information om kontot samt om man vill sätta in pengar eller ta ut pengar. Andra valet är genom att trycka på knappen “Close account”. Trycker man på denna knappen tas kontot bort.
+
+Vill man skapa ett sparkonto trycker man på knappen “Create savings account”.
+Vill man skapa ett kreditkonto trycker man på knappen “Create credit account”.
+
+När man skapar ett konto visas det direkt i tabellen så att man kan jobba vidare med kontot.
+
+Det sista knappen “Back to customers” tar användaren tillbaka till föregående sida.
+Hantera bank konton
+När man har selekterat ett bank konto finns det en del saker man kan göra.
+Vill man sätta in pengar på kontot eller ta ut pengar, ska man först fylla i text rutan till höger där det står: “Amount to deposit or withdraw:”. Där fyller man i en summa, sedan trycker man antingen på knappen “Deposit” eller “Withdraw” längst ned på skärmen. Summan som man fyller i rutan får bestå av siffror samt får det innehålla ett “.” tecken om man vill använda en summa med decimaler.
+
+Vill man se alla transaktioner som har gjorts på kontot trycker man på knappen längst ned “Transactions”. Har inga transaktioner gjorts på kontot tidigare får man upp en ruta med texten: “There are no transactions to display”. Om det finns transaktioner att visas får man upp en ruta med alla gjorda transaktioner. I denna ruta finns två val, att spara eller att stänga rutan. Att spara transaktionerna är inte tillgänglig än i denna version av programmet.
+
+Det sista valet är genom att trycka på knappen längst ned till höger: “Back to customer”, denna knapp tar användaren tillbaks till föregående sida.
+
+
+File
+Högst upp till vänster av programmet finns knappen “File”. Där kan man välja att börja ett nytt kundregister, att ladda ned ett tidigare sparat kundregister eller spara aktuella kundregister.
+
+Att ladda ned eller spara är inte tillgängliga i denna version av programmet.
+
+Help
+Högst upp på höger om “File” knappen finns “Help” knappen. Under den hittar man “User manual”. Trycker man på den visas denna användarmanualen i en ruta som kommer upp.
