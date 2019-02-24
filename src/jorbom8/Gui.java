@@ -56,8 +56,9 @@ public class Gui extends JFrame{
 				fc.setCurrentDirectory(new java.io.File("./src/jorbom8/jorbom8_Files"));
 				fc.setDialogTitle("Open");
 				if (fc.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
-					load(fc.getSelectedFile().getName());
-					//getAllCustomers();
+					File selectedFile = fc.getSelectedFile();
+					String path = selectedFile.getAbsolutePath();
+					load(path);
 				}
 				
 			} else if (buttonText.equals("Save")) {
@@ -156,7 +157,6 @@ public class Gui extends JFrame{
 		// Adding Customers button
 		button = new JButton("Customers");
 		panel.add(button);
-		//button.addActionListener(event -> getAllCustomers());
 		button.addActionListener(new ButtonListener());
 		
 		// Adding New customer button
@@ -217,7 +217,6 @@ public class Gui extends JFrame{
 		JScrollPane pane = new JScrollPane(table);
 		pane.setBounds(0, 0, 880, 200);
 		
-		//customersTextArea.setText("");
 		String[] splited;
 		
 		for (String customer : bank.getAllCustomers()) {
